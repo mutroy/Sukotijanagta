@@ -22,3 +22,17 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/.idea/.gitignore
+/out/production/Sukotijanagta/.idea/.gitignore
+/out/production/Sukotijanagta/.gitignore
+/.idea/misc.xml
+/out/production/Sukotijanagta/.idea/misc.xml
+/.idea/modules.xml
+/out/production/Sukotijanagta/.idea/modules.xml
+/out/production/Sukotijanagta/README.md
+/.idea/Sukotijanagta.iml
+/out/production/Sukotijanagta/.idea/Sukotijanagta.iml
+/.idea/uiDesigner.xml
+/out/production/Sukotijanagta/.idea/uiDesigner.xml
+/.idea/vcs.xml
+/out/production/Sukotijanagta/.idea/vcs.xml
