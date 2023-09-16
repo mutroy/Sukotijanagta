@@ -8,6 +8,8 @@ public class DAD_CHAP2 {
 
         //Modifying the program to print multiple lines of text with single statement
 
-        System.out.println("Varahi\nAmma\nbless\nme");
+        System.out.println("Varahi\nAmma\nbless\nme\r");
+
+        System.out.printf("%s%n%s%n", "Welcome to", "Java Programming");
     }
 }
