@@ -1,3 +1,5 @@
+package Chapter3;
+
 import java.awt.*;
 import java.util.Date;
 
@@ -44,11 +46,6 @@ public class Main {
         String message3 = "C:\n\\\tWindows\\...";
         System.out.println(message1);
         System.out.println(message3);
-
-
-
-
-
 
 
     }

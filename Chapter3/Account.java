@@ -1,9 +1,11 @@
+package Chapter3;
+
 public class Account {
 
     private String name;
     private double balance;
 
-    public Account(String name,Double balance){
+    public Account(String name, Double balance) {
         this.name = name;
 
         if (balance > 0.0) {

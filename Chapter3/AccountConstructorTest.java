@@ -1,3 +1,5 @@
+package Chapter3;
+
 public class AccountConstructorTest {
 
     public static void main(String[] args) {
@@ -5,6 +7,6 @@ public class AccountConstructorTest {
         AccountConstructor account1 = new AccountConstructor("NARPAVI");
         AccountConstructor account2 = new AccountConstructor("NIRVITA");
 
-        System.out.println(" The names are "+ account1.getName() + " & " + account2.getName());
+        System.out.println(" The names are " + account1.getName() + " & " + account2.getName());
     }
 }
