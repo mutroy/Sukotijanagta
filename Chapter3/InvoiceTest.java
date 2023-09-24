@@ -8,6 +8,8 @@ public class InvoiceTest {
 
         System.out.println("Invoice details are " + inv.getPartNumber() + " " + inv.getPartDescription() + " " + inv.getItemQuantity() + " " + inv.getPricePerItem());
 
+        inv.setPricePerItem(-2);
+
         double totalCost = inv.getInvoiceAmount();
 
         System.out.printf(" Total Cost is $%.2f", totalCost);
