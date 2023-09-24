@@ -50,7 +50,11 @@ public class Invoice {
     }
 
     public void setItemQuantity(int itemQuantity) {
-        this.itemQuantity = itemQuantity;
+        if (itemQuantity > 0) {
+            this.itemQuantity = itemQuantity;
+        } else {
+            this.itemQuantity = 0;
+        }
     }
 
     public double getPricePerItem() {
@@ -58,7 +62,11 @@ public class Invoice {
     }
 
     public void setPricePerItem(double pricePerItem) {
-        this.pricePerItem = pricePerItem;
+        if (pricePerItem > 0) {
+            this.pricePerItem = pricePerItem;
+        } else {
+            this.pricePerItem = 0;
+        }
     }
 
     public double getInvoiceAmount() {
