@@ -2,17 +2,24 @@ import java.util.Scanner;
 
 public class AccountTest {
     public static void main(String[] args) {
+        Account account1 = new Account("NARPAVI",1000.00);
+        Account account2 = new Account("NIRVITA",100.00);
+
+        System.out.printf("%s  balance: $%.2f%n",account1.getName(),account1.getBalance());
+
+        System.out.printf("%s  balance: $%.2f%n",account2.getName(),account2.getBalance());
+
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter deposit amount for " + account1.getName() + " account : ");
+        double depositAmount = input.nextDouble();
 
-        Account myAccount = new Account();
+        System.out.printf("%n Adding %.2f to account1 balance%n%n",depositAmount);
+        account1.deposit(depositAmount);
 
-        System.out.printf("Initial name is : %s",myAccount.getName());
-
-        System.out.println("Please enter the name: ");
-        String theName = input.nextLine();
-        myAccount.setName(theName);
-
-        System.out.printf(" Name in object myAccount is %s",myAccount.getName());
+        System.out.printf("%s balance: $%.2f%n",
+                account1.getName(), account1.getBalance());
+        System.out.printf("%s balance: $%.2f%n%n",
+                account2.getName(), account2.getBalance());
 
 
     }
